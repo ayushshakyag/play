@@ -14,7 +14,7 @@ const Random = () => {
   return (
     <div>
       <h2>Random List</h2>
-      <AutoScrollList items={randomItems} />
+      <Scroll items={randomItems} />
     </div>
   );
 };
